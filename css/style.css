@@ -41,18 +41,18 @@ html body
 }
 .navbar.shrink
 {
-    background: #f2f2f2;
+    background: #2962ff;
 }
 .navbar.shrink .navbar-brand
 {
 	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 0.3rem;
-	color: #000000;
+	color: #ffffff;
 }
 .navbar.shrink .navbar-nav a
 {
-    color: #2962ff;
+    color: #ffffff;
     font-size: 19px;
     padding: 10px;
     font-weight: 600;
@@ -182,4 +182,49 @@ a .fa-angle-double-down:hover
 #projects
 {
 	padding-top: 6%;
+}
+#contact
+{
+	padding-top: 6%;
+}
+#contact .card .col-md-8
+{
+	padding: 3% 2%;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+textarea[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+#contact .col-md-4 .card
+{
+	background-color: #2962ff;
+	color: white;
+	height: 100%;
+}
+#contact .col-md-4 .card-title h3
+{
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 10% 0;
+}
+#contact .col-md-4 .card li
+{
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 2% 0;
+}
+#contact .col-md-4 .card .fas
+{
+	color: white;
 }
